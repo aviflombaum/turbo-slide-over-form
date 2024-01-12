@@ -1,0 +1,6 @@
+<%= turbo_stream.append "tags" do %>
+  <li class="flex items-center my-2 gap-x-2 animate-fade-in" data-controller="remove" data-remove-target="element">
+    <%= text_field_tag "posts[tags][]", "", id: "", data: {controller: "focus", focus_focus_value: "now"} %>
+    <button data-action="remove#remove">Remove</button>
+  </li>
+<% end %>

@@ -4,11 +4,11 @@
 
 @layer components {
   main {
-    @apply mx-auto md:w-2/3 w-full;
+    @apply w-full max-w-2xl mx-auto mt-12 md:w-2/3;
   }
 
   h1 {
-    @apply font-bold text-4xl;
+    @apply text-4xl font-bold;
   }
 
   form {
@@ -21,20 +21,21 @@
 
   input[type="text"],
   textarea {
-    @apply block shadow rounded-md border border-gray-200 outline-none px-3 py-2 mt-2 w-full;
+    @apply block w-full px-3 py-2 border border-gray-200 rounded-md shadow outline-none;
   }
 
   button,
-  .btn {
-    @apply rounded-lg py-3 px-5 bg-gray-100 inline-block font-medium;
+  .btn,
+  a.btn {
+    @apply inline-block px-5 py-3 font-medium bg-gray-100 rounded-lg;
   }
 
   .btn-primary,
   input[type="submit"] {
-    @apply rounded-lg py-3 px-5 bg-blue-600 text-white inline-block font-medium cursor-pointer;
+    @apply inline-block px-5 py-3 font-medium text-white bg-blue-600 rounded-lg cursor-pointer;
   }
 
   #error_explanation {
-    @apply bg-red-50 text-red-500 px-3 py-2 font-medium rounded-lg mt-3;
+    @apply px-3 py-2 mt-3 font-medium text-red-500 rounded-lg bg-red-50;
   }
 }

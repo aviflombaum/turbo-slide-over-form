@@ -21,5 +21,15 @@
     <%= form.text_area :body, rows: 4 %>
   </fieldset>
 
+  <fieldset>
+    <header class="flex items-center justify-between">
+      <h2>Tags</h2>
+      <%= link_to "Add Tags +", posts_tags_path, class: "btn", data: {turbo_stream: true} %>
+    </header>
+
+    <ul id="tags">
+    </ul>
+  </fieldset>
+
   <%= form.submit %>
 <% end %>
