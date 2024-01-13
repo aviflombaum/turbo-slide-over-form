@@ -13,7 +13,7 @@
 
   <fieldset>
     <%= form.label :title %>
-    <%= form.text_field :title %>
+    <%= form.text_field :title, data: {controller: "focus", focus_focus_value: "now"} %>
   </fieldset>
 
   <fieldset>
@@ -22,7 +22,7 @@
   </fieldset>
 
   <fieldset>
-    <header class="flex items-center justify-between">
+    <header>
       <h2>Tags</h2>
       <%= link_to "Add Tags +", posts_tags_path, class: "btn", data: {turbo_stream: true} %>
     </header>
@@ -31,5 +31,5 @@
     </ul>
   </fieldset>
 
-  <%= form.submit %>
+  <%= form.submit data: {turbo_frame: "_top"} %>
 <% end %>

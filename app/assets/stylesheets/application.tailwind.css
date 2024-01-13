@@ -25,8 +25,7 @@
   }
 
   button,
-  .btn,
-  a.btn {
+  .btn {
     @apply inline-block px-5 py-3 font-medium bg-gray-100 rounded-lg;
   }
 
@@ -34,8 +33,34 @@
   input[type="submit"] {
     @apply inline-block px-5 py-3 font-medium text-white bg-blue-600 rounded-lg cursor-pointer;
   }
+}
 
+@layer utilities {
   #error_explanation {
     @apply px-3 py-2 mt-3 font-medium text-red-500 rounded-lg bg-red-50;
   }
+}
+
+ul#tags li {
+  @apply flex items-center my-2 gap-x-2;
+}
+
+fieldset header {
+  @apply flex items-center justify-between;
+}
+
+#slide-over {
+  @apply relative z-10;
+
+  section {
+    @apply fixed inset-0 overflow-hidden;
+
+    section {
+      @apply relative flex-1 px-4 mt-6 sm:px-6;
+    }
+  }
+}
+
+#slide-over .backdrop {
+  @apply fixed inset-0 bg-black bg-opacity-50;
 }
