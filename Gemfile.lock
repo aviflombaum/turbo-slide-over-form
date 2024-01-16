@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/rails/rails.git
-  revision: b83827a81f14c722ac8a35285113fb4303b815a4
+  revision: 299900f4e50cae5e1d5104b7569eef7bd386e6f5
   branch: main
   specs:
     actioncable (7.2.0.alpha)
@@ -106,7 +106,7 @@ GEM
     brakeman (6.1.1)
       racc
     builder (3.2.4)
-    concurrent-ruby (1.2.2)
+    concurrent-ruby (1.2.3)
     connection_pool (2.4.1)
     crass (1.0.6)
     date (3.3.4)
@@ -147,7 +147,7 @@ GEM
       net-smtp
     marcel (1.0.2)
     mini_mime (1.1.5)
-    minitest (5.20.0)
+    minitest (5.21.1)
     msgpack (1.7.2)
     net-imap (0.4.9.1)
       date
