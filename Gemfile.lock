@@ -99,22 +99,21 @@ GEM
   specs:
     ast (2.4.2)
     base64 (0.2.0)
-    bigdecimal (3.1.5)
+    bigdecimal (3.1.6)
     bindex (0.8.1)
     bootsnap (1.17.0)
       msgpack (~> 1.2)
     brakeman (6.1.1)
       racc
     builder (3.2.4)
-    concurrent-ruby (1.2.2)
+    concurrent-ruby (1.2.3)
     connection_pool (2.4.1)
     crass (1.0.6)
     date (3.3.4)
     debug (1.9.1)
       irb (~> 1.10)
       reline (>= 0.3.8)
-    drb (2.2.0)
-      ruby2_keywords
+    drb (2.2.1)
     erubi (1.12.0)
     ffi (1.16.3)
     globalid (1.2.1)
@@ -125,8 +124,8 @@ GEM
       actionpack (>= 6.0.0)
       activesupport (>= 6.0.0)
       railties (>= 6.0.0)
-    io-console (0.7.1)
-    irb (1.11.1)
+    io-console (0.7.2)
+    irb (1.11.2)
       rdoc
       reline (>= 0.4.2)
     jbuilder (2.11.5)
@@ -134,7 +133,7 @@ GEM
       activesupport (>= 5.0.0)
     json (2.7.1)
     language_server-protocol (3.17.0.3)
-    listen (3.8.0)
+    listen (3.9.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     loofah (2.22.0)
@@ -147,7 +146,7 @@ GEM
       net-smtp
     marcel (1.0.2)
     mini_mime (1.1.5)
-    minitest (5.20.0)
+    minitest (5.22.2)
     msgpack (1.7.2)
     net-imap (0.4.9.1)
       date
@@ -159,17 +158,17 @@ GEM
     net-smtp (0.4.0.1)
       net-protocol
     nio4r (2.7.0)
-    nokogiri (1.16.0-aarch64-linux)
+    nokogiri (1.16.2-aarch64-linux)
       racc (~> 1.4)
-    nokogiri (1.16.0-arm-linux)
+    nokogiri (1.16.2-arm-linux)
       racc (~> 1.4)
-    nokogiri (1.16.0-arm64-darwin)
+    nokogiri (1.16.2-arm64-darwin)
       racc (~> 1.4)
-    nokogiri (1.16.0-x86-linux)
+    nokogiri (1.16.2-x86-linux)
       racc (~> 1.4)
-    nokogiri (1.16.0-x86_64-darwin)
+    nokogiri (1.16.2-x86_64-darwin)
       racc (~> 1.4)
-    nokogiri (1.16.0-x86_64-linux)
+    nokogiri (1.16.2-x86_64-linux)
       racc (~> 1.4)
     parallel (1.24.0)
     parser (3.3.0.2)
@@ -185,7 +184,7 @@ GEM
     puma (6.4.2)
       nio4r (~> 2.0)
     racc (1.7.3)
-    rack (3.0.8)
+    rack (3.0.9.1)
     rack-session (2.0.0)
       rack (>= 3.0.0)
     rack-test (2.1.0)
@@ -200,7 +199,7 @@ GEM
     rails-html-sanitizer (1.6.0)
       loofah (~> 2.21)
       nokogiri (~> 1.14)
-    rails_live_reload (0.3.5)
+    rails_live_reload (0.3.6)
       listen
       nio4r
       railties
@@ -217,7 +216,7 @@ GEM
     redis-client (0.19.1)
       connection_pool
     regexp_parser (2.9.0)
-    reline (0.4.2)
+    reline (0.4.3)
       io-console (~> 0.5)
     rexml (3.2.6)
     rubocop (1.59.0)
@@ -250,7 +249,6 @@ GEM
       rubocop-performance
       rubocop-rails
     ruby-progressbar (1.13.0)
-    ruby2_keywords (0.0.5)
     sqlite3 (1.7.0-aarch64-linux)
     sqlite3 (1.7.0-arm-linux)
     sqlite3 (1.7.0-arm64-darwin)
@@ -272,7 +270,7 @@ GEM
       railties (>= 6.0.0)
     tailwindcss-rails (2.2.1-x86_64-linux)
       railties (>= 6.0.0)
-    thor (1.3.0)
+    thor (1.3.1)
     timeout (0.4.1)
     turbo-rails (1.5.0)
       actionpack (>= 6.0.0)
@@ -291,7 +289,7 @@ GEM
     websocket-driver (0.7.6)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
-    zeitwerk (2.6.12)
+    zeitwerk (2.6.13)
 
 PLATFORMS
   aarch64-linux
